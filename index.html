@@ -14,15 +14,21 @@
         <nav id="navbar">
             <header id="navbar-head">Tech Documentation</header>
             <ul>
-                <li><a class="nav-link" href="#intro">Introduction</a></li>
                 <li>
-                    <a class="nav-link" href="#what-you-should-know">What you should already know</a>
+                    <a class="nav-link" href="#intro">Introduction to JavaScript and Java</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#what-you-should-already-know">What you should already know</a>
                 </li>
                 <li>
                     <a class="nav-link" href="#javascript-and-java">JavaScript and Java</a>
                 </li>
-                <li><a class="nav-link" href="#hello-world">Hello world</a></li>
-                <li><a class="nav-link" href="#variables">Variables</a></li>
+                <li>
+                    <a class="nav-link" href="#hello-world">Hello World</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#variables">Variables</a>
+                </li>
                 <li>
                     <a class="nav-link" href="#declaring-variables">Declaring Variables</a>
                 </li>
@@ -30,8 +36,8 @@
         </nav>
     </div>
     <main id="main-doc">
-        <section class="main-section" id="intro">
-            <h2>Introduction to JavaScript and Java</h2>
+        <section class="main-section" id="Introduction_to_JavaScript_and_Java" >
+            <header id="intro">Introduction to JavaScript and Java</header>
             <p>
                 JavaScript is a cross-platform, object-oriented scripting language. It
                 is a small and lightweight language. Inside a host environment (for
@@ -56,8 +62,8 @@
                 </li>
             </ul>
         </section>
-        <section class="main-section" id="what-you-should-know">
-            <h2>What you should already know</h2>
+        <section class="main-section" id="What_you_should_already_know" >
+            <header id="what-you-should-already-know">What you should already know</header>
             <p>This guide assumes you have the following basic background:</p>
 
             <ul>
@@ -71,34 +77,8 @@
                 </li>
             </ul>
         </section>
-        <section class="main-section" id="javascript-and-java">
-            <h2>JavaScript and Java</h2>
-            <p>
-                JavaScript is a cross-platform, object-oriented scripting language. It
-                is a small and lightweight language. Inside a host environment (for
-                example, a web browser)
-            </p>
-            <p>
-                Core JavaScript can be extended for a variety of purposes by
-                supplementing it with additional objects; for example:
-            </p>
-            <ul>
-                <li>
-                    Client-side JavaScript extends the core language by supplying
-                    objects to control a browser and its Document Object Model (DOM).
-                    For example, client side-extensions allow an application to place
-                    elements on HTML form and respond to user events
-                </li>
-                <li>
-                    Server-side JavaScript extends the core language by supplying
-                    objects relevant to running JavaScript on a server. For example,
-                    server-side extensions allow an application to communicate with a
-                    database.
-                </li>
-            </ul>
-        </section>
-        <section class="main-section" id="hello-world">
-            <h2>Introduction to JavaScript and Java</h2>
+        <section class="main-section" id="Javascript_and_Java">
+            <header id="javascript-and-java">JavaScript and Java</header>
             <p>
                 JavaScript and Java are similar in some ways but fundamentally
                 different in some others. The JavaScript language resembles Java but
@@ -124,8 +104,8 @@
                 function return types are not explicitly typed.
             </p>
         </section>
-        <section class="main-section" id="hello-world">
-            <h2>Hello World</h2>
+        <section class="main-section" id="Hello_World">
+            <header id="hello-world">Hello World</header>
             <p>
                 To get started with writing JavaScript, open the Scratchpad and write your first "Hello World"
                 code:
@@ -141,8 +121,8 @@
                Select the code in the pad and hit Ctrl+R to watch it unfold in your browser
            </p>
         </section>
-        <section class="main-section" id="declaring-variables">
-            <h2>Variables</h2>
+        <section class="main-section" id="Variables">
+            <header id="variables">Variables</header>
             <p>
                 You use variables as symbolic name for values in your application. The names
                 of variables, called identifiers, conform certain rules.
@@ -157,20 +137,21 @@
                 sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99 and _name
             </p>
         </section>
-        <section class="main-section" id="declaring-variables">
-            <h2>Declaring Variables</h2>
+        <section class="main-section" id="Declaring_Variables">
+            <header id="declaring-variables">Declaring Variables</header>
             <p>
-                You use variables as symbolic name for values in your application. The names
-                of variables, called identifiers, conform certain rules.
+               You can declare a variable in three ways:
             </p>
             <p>
-                A JavaScript identifier must start with a letter, underscore (_), or a dollar sign ($);
-                subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters
-                include "A" trhough "Z" (uppercase) and the characters "a" through "z" (lowercase)
+                With the keyword var. For example:
             </p>
+            <div class="code">
+                <code>
+                    var x = 42.
+                </code>
+            </div>
             <p>
-                You can use ISO 8859-1 or Unicode letters such as a and u in identifiers. You can also use the Unicode escape
-                sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99 and _name
+                This syntax can be used to declare both local and global variables. By simply assigning it a value. For example,
             </p>
         </section>
     </main>
