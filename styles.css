@@ -1,6 +1,11 @@
 * {
   font-family: Verdana, sans-serif, Tahoma;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: row;
@@ -11,31 +16,49 @@ body {
   text-decoration: none;
 }
 
+#navbar ul li:first-of-type {
+  border-top: 1px solid black;
+}
+
 #navbar ul li {
   list-style: none;
   text-align: left;
   margin: 0;
-  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   display: flex;
   padding:20px 10px;
+}
+
+#navbar ul li:hover {
+  background-color: lightgrey;
+  color: white;
 }
 
 a{
   color: black;
 }
 
+
 #navbar-head {
   font-weight: bold;
   font-size: 1.3em;
-  padding-top:10px;
   text-align: center;
+  padding:20px;
 }
 
-ul {
+#navbar ul {
   position: relative;
   padding-left: 0;
   left: 0;
   margin:0;
+}
+
+p{
+  text-align: justify;
+}
+
+ul li{
+  text-align: justify;
 }
 
 #div-navbar {
@@ -64,10 +87,9 @@ ul {
 }
 #main-doc {
   position: absolute;
-  width: 60%;
+  width: 75%;
   left: 300px;
-  margin-left: 15px;
-  padding: 20px;
+  padding: 0 0 0 15px;
 }
 
 @media (max-width: 768px) {
@@ -75,17 +97,13 @@ ul {
     display: block;
     position: inherit;
   }
-  header {
-    position: relative;
-  }
   #div-navbar {
     border-right: 0;
     border-bottom: 2px solid black;
     margin-top: inherit;
     width: 100vw;
     max-width: none;
-    position: sticky;
-    z-index: 1;
+    position: relative;
     top: 0;
     background-color: white;
   }
