@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="div-navbar">
+        <nav id="navbar">
+            <header id="navbar-head">Tech Documentation</header>
+            <ul>
+                <li><a class="nav-link" href="#intro">Introduction</a></li>
+                <li>
+                    <a class="nav-link" href="#what-you-should-know">What you should already know</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#javascript-and-java">JavaScript and Java</a>
+                </li>
+                <li><a class="nav-link" href="#hello-world">Hello world</a></li>
+                <li><a class="nav-link" href="#variables">Variables</a></li>
+                <li>
+                    <a class="nav-link" href="#declaring-variables">Declaring Variables</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <main id="main-doc">
+        <section class="main-section" id="intro">
+            <h2>Introduction to JavaScript and Java</h2>
+            <p>
+                JavaScript is a cross-platform, object-oriented scripting language. It
+                is a small and lightweight language. Inside a host environment (for
+                example, a web browser)
+            </p>
+            <p>
+                Core JavaScript can be extended for a variety of purposes by
+                supplementing it with additional objects; for example:
+            </p>
+            <ul>
+                <li>
+                    Client-side JavaScript extends the core language by supplying
+                    objects to control a browser and its Document Object Model (DOM).
+                    For example, client side-extensions allow an application to place
+                    elements on HTML form and respond to user events
+                </li>
+                <li>
+                    Server-side JavaScript extends the core language by supplying
+                    objects relevant to running JavaScript on a server. For example,
+                    server-side extensions allow an application to communicate with a
+                    database.
+                </li>
+            </ul>
+        </section>
+        <section class="main-section" id="what-you-should-know">
+            <h2>What you should already know</h2>
+            <p>This guide assumes you have the following basic background:</p>
+
+            <ul>
+                <li>
+                    A general understanding of the Internet and the World Wide Web (WWW)
+                </li>
+                <li>Good working knowledge of HyperText Markup Language (HTML)</li>
+                <li>
+                    Some programming experience. If you are new to programming, try one
+                    of the tutorials linked on the main page about JavaScript
+                </li>
+            </ul>
+        </section>
+        <section class="main-section" id="javascript-and-java">
+            <h2>JavaScript and Java</h2>
+            <p>
+                JavaScript is a cross-platform, object-oriented scripting language. It
+                is a small and lightweight language. Inside a host environment (for
+                example, a web browser)
+            </p>
+            <p>
+                Core JavaScript can be extended for a variety of purposes by
+                supplementing it with additional objects; for example:
+            </p>
+            <ul>
+                <li>
+                    Client-side JavaScript extends the core language by supplying
+                    objects to control a browser and its Document Object Model (DOM).
+                    For example, client side-extensions allow an application to place
+                    elements on HTML form and respond to user events
+                </li>
+                <li>
+                    Server-side JavaScript extends the core language by supplying
+                    objects relevant to running JavaScript on a server. For example,
+                    server-side extensions allow an application to communicate with a
+                    database.
+                </li>
+            </ul>
+        </section>
+        <section class="main-section" id="hello-world">
+            <h2>Introduction to JavaScript and Java</h2>
+            <p>
+                JavaScript and Java are similar in some ways but fundamentally
+                different in some others. The JavaScript language resembles Java but
+                does not have Java's static typing and strong type checking.
+                JavaScript follows most Java expression syntax, naming conventions and
+                basic control-flow constructs which was the reason why it was renamed
+                from LiveScript to JavaScript
+            </p>
+            <p>
+                In contrast to Java's compile time system of classes built by
+                declarations, JavaScript supports a runtime system based on a small
+                number of data types representing numeric, Boolean and string values.
+                JavaScript has a prototype-based object model instead of a more common
+                class-based object model. The prototype-based model provides dynamic
+                inheritance.
+            </p>
+            <p>
+                JavaScript is a very free-form language compared to Java. You do not
+                have to declare all variables, classes, and methods. You do not have
+                to declare all variables, classes, adn methods. You do not ahve to be
+                concerned with whether methods are public, private, or protected. And
+                you do not have to implement interfaces. Variables, parameters and
+                function return types are not explicitly typed.
+            </p>
+        </section>
+        <section class="main-section" id="hello-world">
+            <h2>Hello World</h2>
+            <p>
+                To get started with writing JavaScript, open the Scratchpad and write your first "Hello World"
+                code:
+            </p>
+            <div class="code">
+                <code>
+                    function greetMe(yourName) {alert("Hello " + yourName); }
+                    greetMe("World");
+                </code>
+            </div>
+           
+           <p>
+               Select the code in the pad and hit Ctrl+R to watch it unfold in your browser
+           </p>
+        </section>
+        <section class="main-section" id="declaring-variables">
+            <h2>Variables</h2>
+            <p>
+                You use variables as symbolic name for values in your application. The names
+                of variables, called identifiers, conform certain rules.
+            </p>
+            <p>
+                A JavaScript identifier must start with a letter, underscore (_), or a dollar sign ($);
+                subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters
+                include "A" trhough "Z" (uppercase) and the characters "a" through "z" (lowercase)
+            </p>
+            <p>
+                You can use ISO 8859-1 or Unicode letters such as a and u in identifiers. You can also use the Unicode escape
+                sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99 and _name
+            </p>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
