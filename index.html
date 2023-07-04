@@ -15,22 +15,22 @@
             <header id="navbar-head">Tech Documentation</header>
             <ul>
                 <li>
-                    <a class="nav-link" href="#intro">Introduction to JavaScript and Java</a>
+                    <a class="nav-link" href="#Introduction_to_JavaScript_and_Java">Introduction to JavaScript and Java</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#what-you-should-already-know">What you should already know</a>
+                    <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#javascript-and-java">JavaScript and Java</a>
+                    <a class="nav-link" href="#Javascript_and_Java">JavaScript and Java</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#hello-world">Hello World</a>
+                    <a class="nav-link" href="#Hello_World">Hello World</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#variables">Variables</a>
+                    <a class="nav-link" href="#Variables">Variables</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#declaring-variables">Declaring Variables</a>
+                    <a class="nav-link" href="#Declaring_Variables">Declaring Variables</a>
                 </li>
             </ul>
         </nav>
@@ -153,6 +153,35 @@
             <p>
                 This syntax can be used to declare both local and global variables. By simply assigning it a value. For example,
             </p>
+            <div class="code">
+                <code>
+                    x = 42
+                </code>
+            </div>
+            <p>
+                This always declares a global variable. It generates a strict JavaScript warning.
+                You shouldn't use this variant.
+            </p>
+            <p>
+                With the keyword let. For example,
+            </p>
+            <div class="code">
+                <code>
+                    let y = 13.
+                </code>
+            </div>
+            <p>
+                JavaScript before ECMAScript 2015 does not have block statement scope; rather,
+                a variable declared within a block is local to the function (or global scope) that the
+                block resides within. For example the following code will log 5, because the scope of x is
+                the function (or global context) within which x is declared, not the block, which in this case
+                is an if statement
+            </p>
+            <div class="code">
+                <code>
+                    if (true) {var x = 5} console.log(x); // 5
+                </code>
+            </div>
         </section>
     </main>
     <footer></footer>
